@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+section {
+    width: 100%;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+
+    padding: 30px 0; 
+}
+
+.caixa-principal {
+    background-color: var(--form-background);
+    width: 575px;
+    height: 515px;
+    margin: 194px 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-principal {
+    display: flex;
+    gap: 10px;
+    color: var(--text-title);
+    margin-top: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.informacao-login p {
+    margin-top: 5px;
+    color: var(--text-base);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.email {
+    
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.login {
+    padding: 20px 0px;
+}
+
+.email input {
+    padding: 15px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 37px;
+    background: none;
+    background-image: url(./images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 1px solid #afb6c2;
+    color: var(--text-base);
+    letter-spacing: 2px;
+}
+
+.email input:hover {
+    border: 1px solid #ffc632;
+    background-image: url(./images/mail-focus.svg);
+    transition: 0.2s ease;
+}
+
+
+label {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-base);
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 27px;
+}
+
+.senha input {
+    padding: 15px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-base);
+    padding-left: 37px;
+    background: none;
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 1px solid #afb6c2;
+    color: var(--text-title);
+    letter-spacing: 2px;
+}
+
+.senha input:hover {
+    border: 1px solid #ffc632;
+    background-image: url(./images/lock-focus.svg);
+    transition: 0.2s;
+}
+
+label .cadeado {
+    position: absolute;
+    left: 318px;
+}
+
+.ajudas {
+    
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-base);
+}
+
+
+
+.ajudas label {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-base);
+}
+
+.ajudas p {
+    color: #ffc632;
+    font-family: 'Roboto';
+}
+
+.check {
+    display: flex;
+    gap: 8px;
+}
+
+.checkbox {
+    background-color: var(--text-base);
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.checkbox:active {
+    background-color: #ffc632;
+    background-image: url(./images/icons8-done.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+
+.botao {
+    width: 100%;
+    padding: 12px 132px;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    color: #473404;
+    background-color: var(--primary-color);
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao:hover {
+    background-color: #ffc532c4;
+}
+
+.naotemconta {
+    margin-top: 14px;
+    color: #ffc632;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.naotemconta p a {
+    text-decoration: none;
+    color: #ffc632;
+}
